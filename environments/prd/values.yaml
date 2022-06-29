@@ -120,7 +120,7 @@ postgresqlUsername: alan
 ## PostgreSQL password
 ## ref: https://github.com/bitnami/bitnami-docker-postgresql/blob/master/README.md#setting-the-root-password-on-first-run
 ##
-postgresqlPassword: touring
+# postgresqlPassword: touring
 
 ## PostgreSQL password using existing secret
 ## existingSecret: secret
@@ -307,7 +307,7 @@ persistence:
   # storageClass: "-"
   accessModes:
     - ReadWriteOnce
-  size: 8Gi
+  size: 2Gi
   annotations: {}
 
 ## updateStrategy for PostgreSQL StatefulSet and its slaves StatefulSets

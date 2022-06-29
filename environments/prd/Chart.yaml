@@ -1,10 +1,9 @@
 apiVersion: v2
 name: dummy-rsc
-type: application
-version: 0.0.1
-appVersion: 11.7.0
-description: external resources needed for dummy service
+appVersion: 14.4.0
+version: 1.0.0
+description: external resources for dummy service 
 dependencies:
   - name: postgresql
-    version: 8.6.4
-    repository: https://charts.helm.sh/stable
+    repository: https://charts.bitnami.com/bitnami
+    version: 11.6.10

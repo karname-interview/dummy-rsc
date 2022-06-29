@@ -28,7 +28,7 @@ global:
       postgresPassword: touring
       username: alan 
       password: touring
-      database: ""
+      database: alan_touring
       existingSecret: ""
       secretKeys:
         adminPasswordKey: ""

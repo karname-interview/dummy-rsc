@@ -3,7 +3,7 @@ name: dummy-rsc
 appVersion: 14.4.0
 version: 1.0.0
 description: external resources for dummy service 
-dependencies:
-  - name: postgresql
-    repository: https://charts.bitnami.com/bitnami
-    version: 11.6.10
+# dependencies:
+#   - name: postgresql
+#     repository: https://charts.bitnami.com/bitnami
+#     version: 11.6.10
